@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-12T06:41:49.559Z</updated>
+  <updated>2017-07-12T11:02:09.618Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexuuu</title>
+    <link href="http://yoursite.com/2017/07/12/Hexuuu/"/>
+    <id>http://yoursite.com/2017/07/12/Hexuuu/</id>
+    <published>2017-07-12T10:58:51.000Z</published>
+    <updated>2017-07-12T11:02:09.618Z</updated>
+    
+    <content type="html"><![CDATA[<p>了layout，在scaffolds文件</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;了layout，在scaffolds文件&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="日记" scheme="http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="node.js" scheme="http://yoursite.com/tags/node-js/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
