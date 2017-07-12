@@ -3,14 +3,22 @@
   
     
     <entry>
-      <title><![CDATA[Hexuuu]]></title>
-      <url>/2017/07/12/Hexuuu/</url>
-      <content type="html"><![CDATA[<p>了layout，在scaffolds文件</p>
+      <title><![CDATA[建站笔记]]></title>
+      <url>/2017/07/12/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<p>安装node.js<br>准备命令： yum -y install gcc make gcc-c++ openssl-devel wget<br>去node.js中文网下载linux 64位的安装文件 xxx.tar.xz<br>解压缩文件 xz -d node-v8.1.3-linux-x64.tar.xz 再解压缩 tar -xvf node-v8.1.3-linux-x64.tar<br>把文件直接移到 指定文件夹中 sudo mv node-v8.1.3-linux-x64 /usr/local<br>配置环境变量 sudo vim /etc/profile 添加如下：export PATH=$PATH:/usr/local/nodejs/bin 生效 source /etc/profile<br>查看是否配置成功：echo $PATH<br>检查node.js是否配置成功 node -v npm -v</p>
+<p>安装git:<br>直接安装：sudo yum install git<br>查看是否安装成功：git –version<br>查看安装位置：which git<br>配置git :git config –global user.name “LingJiangXie”<br>         git config –global user.email “xielj1994@outlook.com”<br>查看配置列表：git config –list</p>
+<p>在自己的git上新建一个 LingJiangXie.github.io（不能为空，否则没有节点）<br>ssh 密药配置 参考<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000" target="_blank" rel="external">http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000</a></p>
+<p>其他基本参考：<a href="http://www.cnblogs.com/wanghuaijun/p/7073296.html" target="_blank" rel="external">http://www.cnblogs.com/wanghuaijun/p/7073296.html</a></p>
+<p>部署服务时 出现问题参考：npm install hexo-deployer-git –save （此命令在新建的本地博客文件夹根目录执行）改了之后执行，然后再部署试试</p>
+<p>修改，更换完主题 重新执行<br>//生成静态文件<br>hexo generate</p>
+<p>//部署服务<br>hexo deploy</p>
+<p>还可以参考这个：</p>
+<p><a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/26625249</a> 比较全</p>
 ]]></content>
       
         <categories>
             
-            <category> 日记 </category>
+            <category> 笔记 </category>
             
         </categories>
         
@@ -19,43 +27,7 @@
             
             <tag> Hexo </tag>
             
-            <tag> node.js </tag>
-            
         </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/2017/07/12/hello-world%20(copy)/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/2017/07/12/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-      
         
     </entry>
     
