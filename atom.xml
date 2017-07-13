@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-12T11:45:20.589Z</updated>
+  <updated>2017-07-13T07:18:32.247Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://yoursite.com/2017/07/13/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2017/07/13/测试/</id>
+    <published>2017-07-13T07:17:10.000Z</published>
+    <updated>2017-07-13T07:18:32.247Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为我们的博文都是用Markdown语言写的，所以首先，你需要一个好用的Markdown编辑器。其实好用的Markdown编辑器一大堆，这里就给大家推荐两个，如果你用的不习惯也可以换其它的。</p>
+<pre><code>本地编辑器：Haroopad，非常小众的一款Markdown编辑器，左边编辑右边实时预览效果，非常轻便；
+
+在线编辑器：MaHua，也是比较小众的一款Markdown编辑器，但效果确实很棒，我的这篇博文就是用MaHua写的。
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为我们的博文都是用Markdown语言写的，所以首先，你需要一个好用的Markdown编辑器。其实好用的Markdown编辑器一大堆，这里就给大家推荐两个，如果你用的不习惯也可以换其它的。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;本地编辑器：Haroopad，非常小众的一款Mark
+    
+    </summary>
+    
+      <category term="AI" scheme="http://yoursite.com/categories/AI/"/>
+    
+    
+      <category term="YAYA" scheme="http://yoursite.com/tags/YAYA/"/>
+    
+  </entry>
   
   <entry>
     <title>建站笔记</title>

@@ -3,6 +3,30 @@
   
     
     <entry>
+      <title><![CDATA[测试]]></title>
+      <url>/2017/07/13/%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"><![CDATA[<p>因为我们的博文都是用Markdown语言写的，所以首先，你需要一个好用的Markdown编辑器。其实好用的Markdown编辑器一大堆，这里就给大家推荐两个，如果你用的不习惯也可以换其它的。</p>
+<pre><code>本地编辑器：Haroopad，非常小众的一款Markdown编辑器，左边编辑右边实时预览效果，非常轻便；
+
+在线编辑器：MaHua，也是比较小众的一款Markdown编辑器，但效果确实很棒，我的这篇博文就是用MaHua写的。
+</code></pre>]]></content>
+      
+        <categories>
+            
+            <category> AI </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> YAYA </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[建站笔记]]></title>
       <url>/2017/07/12/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</url>
       <content type="html"><![CDATA[<p>安装node.js<br>准备命令： yum -y install gcc make gcc-c++ openssl-devel wget<br>去node.js中文网下载linux 64位的安装文件 xxx.tar.xz<br>解压缩文件 xz -d node-v8.1.3-linux-x64.tar.xz 再解压缩 tar -xvf node-v8.1.3-linux-x64.tar<br>把文件直接移到 指定文件夹中 sudo mv node-v8.1.3-linux-x64 /usr/local<br>配置环境变量 sudo vim /etc/profile 添加如下：export PATH=$PATH:/usr/local/nodejs/bin 生效 source /etc/profile<br>查看是否配置成功：echo $PATH<br>检查node.js是否配置成功 node -v npm -v</p>
