@@ -262,13 +262,6 @@
   line-height: 1.4;
   margin-right: 0.5rem;
 }
-#post #post-footer .avatar img {
-  border-radius: 10px;
-  background-clip: padding-box;
-  border: 2px solid #cecece;
-  height: 100px;
-  width: 100px;
-}
 #post #post-footer .avatar .high-song,
 #post #post-footer .avatar .donate {
   position: relative;
