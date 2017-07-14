@@ -4,9 +4,9 @@
   <subtitle>记录在学校挣扎的苦逼生活...</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://sowhatxie.top/"/>
   <updated>2017-07-14T05:22:20.843Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://sowhatxie.top/</id>
   
   <author>
     <name>Dany Xie</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>markdown测试</title>
-    <link href="http://yoursite.com/2017/05/13/markdown%20%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2017/05/13/markdown 测试/</id>
+    <link href="http://sowhatxie.top/2017/05/13/markdown%20%E6%B5%8B%E8%AF%95/"/>
+    <id>http://sowhatxie.top/2017/05/13/markdown 测试/</id>
     <published>2017-05-13T07:17:10.000Z</published>
     <updated>2017-07-14T05:22:20.843Z</updated>
     
@@ -32,19 +32,19 @@
     
     </summary>
     
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://sowhatxie.top/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="YAYA" scheme="http://yoursite.com/tags/YAYA/"/>
+      <category term="YAYA" scheme="http://sowhatxie.top/tags/YAYA/"/>
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://sowhatxie.top/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>测试</title>
-    <link href="http://yoursite.com/2017/02/13/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2017/02/13/测试/</id>
+    <link href="http://sowhatxie.top/2017/02/13/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://sowhatxie.top/2017/02/13/测试/</id>
     <published>2017-02-13T07:17:10.000Z</published>
     <updated>2017-07-14T04:48:33.128Z</updated>
     
@@ -64,17 +64,17 @@
     
     </summary>
     
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://sowhatxie.top/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="YAYA" scheme="http://yoursite.com/tags/YAYA/"/>
+      <category term="YAYA" scheme="http://sowhatxie.top/tags/YAYA/"/>
     
   </entry>
   
   <entry>
     <title>建站笔记</title>
-    <link href="http://yoursite.com/2016/07/12/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2016/07/12/建站笔记/</id>
+    <link href="http://sowhatxie.top/2016/07/12/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+    <id>http://sowhatxie.top/2016/07/12/建站笔记/</id>
     <published>2016-07-12T10:58:51.000Z</published>
     <updated>2017-07-14T03:36:47.097Z</updated>
     
@@ -94,12 +94,12 @@
     
     </summary>
     
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://sowhatxie.top/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="YAYA" scheme="http://yoursite.com/tags/YAYA/"/>
+      <category term="YAYA" scheme="http://sowhatxie.top/tags/YAYA/"/>
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://sowhatxie.top/tags/Hexo/"/>
     
   </entry>
   
