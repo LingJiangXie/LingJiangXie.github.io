@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-14T01:39:14.659Z</updated>
+  <updated>2017-07-14T04:48:33.128Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,13 +20,15 @@
     <link href="http://yoursite.com/2017/02/13/%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2017/02/13/测试/</id>
     <published>2017-02-13T07:17:10.000Z</published>
-    <updated>2017-07-14T01:39:14.659Z</updated>
+    <updated>2017-07-14T04:48:33.128Z</updated>
     
     <content type="html"><![CDATA[<p>因为我们的博文都是用Markdown语言写的，所以首先，你需要一个好用的Markdown编辑器。其实好用的Markdown编辑器一大堆，这里就给大家推荐两个，如果你用的不习惯也可以换其它的。</p>
 <pre><code>本地编辑器：Haroopad，非常小众的一款Markdown编辑器，左边编辑右边实时预览效果，非常轻便；
 
 在线编辑器：MaHua，也是比较小众的一款Markdown编辑器，但效果确实很棒，我的这篇博文就是用MaHua写的。
 </code></pre><p><img src="http://ot11hkokg.bkt.clouddn.com/17-7-13/8384467.jpg" alt="hello"></p>
+<p>‘’‘<br>from django import template import mistune from pygments import highlight from pygments.lexers import get_lexer_by_name from pygments.formatters import HtmlFormatter register = template.Library() def block_code(text, lang, inlinestyles=False, linenos=False): if not lang: text = text.strip() return u’<pre><code>%s</code></pre>\n’ % mistune.escape(text) try: lexer = get_lexer_by_name(lang, stripall=True) formatter = HtmlFormatter( noclasses=inlinestyles, linenos=linenos ) code = highlight(text, lexer, formatter) if linenos: return ‘<div class="highlight">%s</div>\n’ % code return code except: return ‘<pre class="%s"><code>%s</code></pre>\n’ % ( lang, mistune.escape(text) ) class HighlightMixin(object): def block_code(self, text, lang): # renderer has an options inlinestyles = self.options.get(‘inlinestyles’) linenos = self.options.get(‘linenos’) return block_code(text, lang, inlinestyles, linenos) class TocRenderer(HighlightMixin, mistune.Renderer): pass @register.filter def markdown_detail(value): renderer = TocRenderer(linenos=True, inlinestyles=False) mdp = mistune.Markdown(escape=True, renderer=renderer) return mdp(value)</p>
+<p>作者：大阿拉伯人<br>链接：<a href="http://www.jianshu.com/p/2909aed83dad" target="_blank" rel="external">http://www.jianshu.com/p/2909aed83dad</a><br>來源：简书<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。<br>’‘’</p>
 ]]></content>
     
     <summary type="html">
