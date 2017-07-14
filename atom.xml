@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-14T01:22:39.538Z</updated>
+  <updated>2017-07-14T01:30:33.968Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/02/13/%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2017/02/13/测试/</id>
     <published>2017-02-13T07:17:10.000Z</published>
-    <updated>2017-07-14T01:22:39.538Z</updated>
+    <updated>2017-07-14T01:30:33.968Z</updated>
     
     <content type="html"><![CDATA[<p>因为我们的博文都是用Markdown语言写的，所以首先，你需要一个好用的Markdown编辑器。其实好用的Markdown编辑器一大堆，这里就给大家推荐两个，如果你用的不习惯也可以换其它的。</p>
 <pre><code>本地编辑器：Haroopad，非常小众的一款Markdown编辑器，左边编辑右边实时预览效果，非常轻便；
@@ -36,78 +36,10 @@
     
     </summary>
     
-      <category term="hAYA1" scheme="http://yoursite.com/categories/hAYA1/"/>
-    
-      <category term="hAYA2" scheme="http://yoursite.com/categories/hAYA1/hAYA2/"/>
-    
-      <category term="hAYA3" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/"/>
-    
-      <category term="hAYA4" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/"/>
-    
-      <category term="hAYA5" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/"/>
-    
-      <category term="hAYA6" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/"/>
-    
-      <category term="hAYA7" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/"/>
-    
-      <category term="hAYA8" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/"/>
-    
-      <category term="hAYA9" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/"/>
-    
-      <category term="hAYA10" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/"/>
-    
-      <category term="hAYA11" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/"/>
-    
-      <category term="hAYA12" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/hAYA12/"/>
-    
-      <category term="hAYA13" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/hAYA12/hAYA13/"/>
-    
-      <category term="hAYA14" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/hAYA12/hAYA13/hAYA14/"/>
-    
-      <category term="hAYA15" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/hAYA12/hAYA13/hAYA14/hAYA15/"/>
-    
-      <category term="hAYA16" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/hAYA12/hAYA13/hAYA14/hAYA15/hAYA16/"/>
-    
-      <category term="hAYA17" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/hAYA12/hAYA13/hAYA14/hAYA15/hAYA16/hAYA17/"/>
-    
-      <category term="hAYA18" scheme="http://yoursite.com/categories/hAYA1/hAYA2/hAYA3/hAYA4/hAYA5/hAYA6/hAYA7/hAYA8/hAYA9/hAYA10/hAYA11/hAYA12/hAYA13/hAYA14/hAYA15/hAYA16/hAYA17/hAYA18/"/>
+      <category term="haha" scheme="http://yoursite.com/categories/haha/"/>
     
     
-      <category term="YAYA15" scheme="http://yoursite.com/tags/YAYA15/"/>
-    
-      <category term="YAYA1" scheme="http://yoursite.com/tags/YAYA1/"/>
-    
-      <category term="YAYA2" scheme="http://yoursite.com/tags/YAYA2/"/>
-    
-      <category term="YAYA3" scheme="http://yoursite.com/tags/YAYA3/"/>
-    
-      <category term="YAYA4" scheme="http://yoursite.com/tags/YAYA4/"/>
-    
-      <category term="YAYA5" scheme="http://yoursite.com/tags/YAYA5/"/>
-    
-      <category term="YAYA6" scheme="http://yoursite.com/tags/YAYA6/"/>
-    
-      <category term="YAYA7" scheme="http://yoursite.com/tags/YAYA7/"/>
-    
-      <category term="YAYA8" scheme="http://yoursite.com/tags/YAYA8/"/>
-    
-      <category term="YAYA9" scheme="http://yoursite.com/tags/YAYA9/"/>
-    
-      <category term="YAYA10" scheme="http://yoursite.com/tags/YAYA10/"/>
-    
-      <category term="YAYA11" scheme="http://yoursite.com/tags/YAYA11/"/>
-    
-      <category term="YAYA12" scheme="http://yoursite.com/tags/YAYA12/"/>
-    
-      <category term="YAYA13" scheme="http://yoursite.com/tags/YAYA13/"/>
-    
-      <category term="YAYA14" scheme="http://yoursite.com/tags/YAYA14/"/>
-    
-      <category term="YAYA16" scheme="http://yoursite.com/tags/YAYA16/"/>
-    
-      <category term="YAYA17" scheme="http://yoursite.com/tags/YAYA17/"/>
-    
-      <category term="YAYA18" scheme="http://yoursite.com/tags/YAYA18/"/>
+      <category term="YAYA" scheme="http://yoursite.com/tags/YAYA/"/>
     
   </entry>
   
@@ -116,7 +48,7 @@
     <link href="http://yoursite.com/2016/07/12/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2016/07/12/建站笔记/</id>
     <published>2016-07-12T10:58:51.000Z</published>
-    <updated>2017-07-14T01:23:07.608Z</updated>
+    <updated>2017-07-14T01:30:04.549Z</updated>
     
     <content type="html"><![CDATA[<p>安装node.js<br>准备命令： yum -y install gcc make gcc-c++ openssl-devel wget<br>去node.js中文网下载linux 64位的安装文件 xxx.tar.xz<br>解压缩文件 xz -d node-v8.1.3-linux-x64.tar.xz 再解压缩 tar -xvf node-v8.1.3-linux-x64.tar<br>把文件直接移到 指定文件夹中 sudo mv node-v8.1.3-linux-x64 /usr/local<br>配置环境变量 sudo vim /etc/profile 添加如下：export PATH=$PATH:/usr/local/nodejs/bin 生效 source /etc/profile<br>查看是否配置成功：echo $PATH<br>检查node.js是否配置成功 node -v npm -v</p>
 <p>安装git:<br>直接安装：sudo yum install git<br>查看是否安装成功：git –version<br>查看安装位置：which git<br>配置git :git config –global user.name “LingJiangXie”<br>         git config –global user.email “xielj1994@outlook.com”<br>查看配置列表：git config –list</p>
@@ -137,12 +69,12 @@
     
       <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="hAYA15" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/hAYA15/"/>
+      <category term="haha" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/haha/"/>
     
     
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
-      <category term="YAYA15" scheme="http://yoursite.com/tags/YAYA15/"/>
+      <category term="YAYA" scheme="http://yoursite.com/tags/YAYA/"/>
     
   </entry>
   
