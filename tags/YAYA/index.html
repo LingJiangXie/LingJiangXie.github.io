@@ -130,6 +130,45 @@
   <section class="meta">
     
     <h2 class="title">
+      <a href="/2017/05/13/markdown 测试/">
+        markdown测试
+      </a>
+    </h2>
+    
+    <time>
+      May 13, 2017
+    </time>
+		
+    
+    <div class='cats'>
+        <a href="/categories/笔记/">笔记</a>
+    </div>
+
+  </section>
+  <section class="article typo">
+	  <h2 id="markdown-测试"><a href="#markdown-测试" class="headerlink" title="markdown 测试"></a>markdown 测试</h2><h3 id="设置代码块"><a href="#设置代码块" class="headerlink" title="设置代码块"></a>设置代码块</h3><figure class="highlight plain"><figcaption><span>```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">```下面是Java代码</div><div class="line">package binaryheap;</div><div class="line"></div><div class="line">public class BinaryHeap &#123;</div><div class="line">	private static final int DEFAULT_CAPACITY=10;</div><div class="line">	public int currentSize;</div><div class="line">	public int [] array;</div><div class="line">	</div><div class="line">	private void percolateDown(int hole)&#123;</div><div class="line">		int child=0;</div><div class="line">		//tmp值是那个传入的最初要下沉的值</div><div class="line">		int tmp=array[hole];</div><div class="line">		//这个for循环，结束之后,hole要不就是最后一个，要不就满足了堆，（子树）根节点最小的特性</div><div class="line">		for(;hole*2&lt;=currentSize;hole=child)&#123;</div><div class="line">			</div><div class="line">			child=hole*2;</div><div class="line">			if(child!=currentSize &amp;&amp; (array[child+1]&lt;array[child]) ) child++;</div><div class="line">			//如上的语句结束可以得到两个子节点中较小的那个</div><div class="line">			if(array[child]&lt;tmp)&#123;</div><div class="line">				array[hole]=array[child];</div><div class="line">			&#125;else break;</div><div class="line">			//如上判断结束hole到了最终的位置</div><div class="line">		&#125;</div><div class="line">		array[hole]=tmp;</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	private void buildHeap()&#123;</div><div class="line">		//这里从currentSize/2这个位置（最后一个非叶节点）开始，直到根节点，不断下滤调整堆序。</div><div class="line">		for(int i= currentSize/2;i&gt;0;i--)&#123;</div><div class="line">			percolateDown(i);</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	public void enlarge(int newSize)&#123;</div><div class="line">		int [] tmp=new int[newSize];</div><div class="line">		for(int i=1;i&lt;=currentSize;i++)&#123;</div><div class="line">			tmp[i]=array[i];</div><div class="line">		&#125;</div><div class="line">		array=tmp;</div><div class="line">		</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	public BinaryHeap(int [] data)&#123;</div><div class="line">		//先依据传入的数组，建造无序堆，在调整成有序堆。</div><div class="line">		currentSize=data.length;</div><div class="line">		array=new int[(currentSize+2)*11/10];</div><div class="line">		int i=1;</div><div class="line">		for(int item : data) array[i++]=item;</div><div class="line">		buildHeap();</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	public void makeEmpty()&#123;</div><div class="line">		currentSize=0;</div><div class="line">	&#125;</div><div class="line">	public boolean isEmpty()&#123;</div><div class="line">		return currentSize==0;</div><div class="line">	&#125;</div><div class="line">	public int min()&#123;</div><div class="line">		if(isEmpty()) &#123;</div><div class="line">			System.out.println(&quot;堆为空！返回-1&quot;);</div><div class="line">			return -1;</div><div class="line">		&#125;</div><div class="line">		else&#123;</div><div class="line">			return array[1];</div><div class="line">			&#125;</div><div class="line">	&#125;</div><div class="line">	public int deleteMin()&#123;</div><div class="line">		if(isEmpty()) &#123;</div><div class="line">			System.out.println(&quot;堆为空！返回-1&quot;);</div><div class="line">			return -1;</div><div class="line">		&#125;</div><div class="line">		int lastmin =min();</div><div class="line">		array[1]=array[currentSize--];</div><div class="line">		percolateDown(1);</div><div class="line">		return lastmin;</div><div class="line">	&#125;</div><div class="line">	public void insert(int data)&#123;</div><div class="line">		//自动扩容</div><div class="line">		if(currentSize==array.length-1)&#123;</div><div class="line">			enlarge(array.length*2+1);</div><div class="line">		&#125;</div><div class="line">		//上冒操作</div><div class="line">		 int hole=++currentSize;</div><div class="line">		 for(;hole&gt;1 &amp;&amp; data &lt; array[hole/2];hole/=2) array[hole]=array[hole/2];</div><div class="line">		 array[hole]=data;</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+
+    
+    
+    
+	  <div class="full-width auto-padding tags">
+      
+        <a href="/tags/YAYA/">YAYA</a>
+      
+        <a href="/tags/Hexo/">Hexo</a>
+      
+	  </div>
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
       <a href="/2017/02/13/测试/">
         测试
       </a>
@@ -200,9 +239,9 @@
     
 	  <div class="full-width auto-padding tags">
       
-        <a href="/tags/Hexo/">Hexo</a>
-      
         <a href="/tags/YAYA/">YAYA</a>
+      
+        <a href="/tags/Hexo/">Hexo</a>
       
 	  </div>
     
@@ -235,7 +274,7 @@
     
     <ul class="entry">
     
-        <li><a class="flat-box" href="/categories/笔记/"><div class='name'>笔记</div><div class='badget'>2</div></a></li>
+        <li><a class="flat-box" href="/categories/笔记/"><div class='name'>笔记</div><div class='badget'>3</div></a></li>
     
     </ul>
     
