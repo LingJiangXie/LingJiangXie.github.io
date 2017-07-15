@@ -3,8 +3,8 @@
   
     
     <entry>
-      <title></title>
-      <url>/2017/07/15/%E5%A4%8D%E7%9B%98%E4%B8%80%E9%98%B6%E6%AE%B5/</url>
+      <title><![CDATA[复盘一阶段]]></title>
+      <url>/2017/08/14/%E5%A4%8D%E7%9B%98%E4%B8%80%E9%98%B6%E6%AE%B5/</url>
       <content type="html"><![CDATA[<h2 id="学习方法"><a href="#学习方法" class="headerlink" title="学习方法"></a>学习方法</h2><p>领域内，国际顶级会议：<br>internation conference on data mining  </p>
 <p>internation conference on data engineering  </p>
 <p>internation conference on machine learning  </p>
@@ -70,6 +70,18 @@
 <h3 id="主成分分析（PCA）"><a href="#主成分分析（PCA）" class="headerlink" title="主成分分析（PCA）"></a>主成分分析（PCA）</h3><p>特征的压缩，而非去除。<br>角度不同，得到的信息不同。坐标轴旋转，转换矩阵。降维，投影；<br>拉格朗日乘数法，把约束的优化，转化为无约束优化。</p>
 ]]></content>
       
+        <categories>
+            
+            <category> 笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> ML </tag>
+            
+        </tags>
         
     </entry>
     

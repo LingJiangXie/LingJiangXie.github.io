@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sowhatxie.top/"/>
-  <updated>2017-07-15T08:59:13.007Z</updated>
+  <updated>2017-07-15T09:01:56.003Z</updated>
   <id>http://sowhatxie.top/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://sowhatxie.top/2017/07/15/%E5%A4%8D%E7%9B%98%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
-    <id>http://sowhatxie.top/2017/07/15/复盘一阶段/</id>
-    <published>2017-07-15T08:59:13.020Z</published>
-    <updated>2017-07-15T08:59:13.007Z</updated>
+    <title>复盘一阶段</title>
+    <link href="http://sowhatxie.top/2017/08/14/%E5%A4%8D%E7%9B%98%E4%B8%80%E9%98%B6%E6%AE%B5/"/>
+    <id>http://sowhatxie.top/2017/08/14/复盘一阶段/</id>
+    <published>2017-08-14T07:17:10.000Z</published>
+    <updated>2017-07-15T09:01:56.003Z</updated>
     
     <content type="html"><![CDATA[<h2 id="学习方法"><a href="#学习方法" class="headerlink" title="学习方法"></a>学习方法</h2><p>领域内，国际顶级会议：<br>internation conference on data mining  </p>
 <p>internation conference on data engineering  </p>
@@ -102,6 +102,10 @@
     
     </summary>
     
+      <category term="笔记" scheme="http://sowhatxie.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="ML" scheme="http://sowhatxie.top/tags/ML/"/>
     
   </entry>
   

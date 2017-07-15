@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>建站笔记 | 领江的小博客</title>
+  <title>Tag: ML | 领江的小博客</title>
   <meta name="description" content="null" />
   <meta name="keywords" content="" />
   <meta name="HandheldFriendly" content="True" />
@@ -12,17 +12,12 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="alternate" href="/atom.xml" title="领江的小博客">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="安装node.js准备命令： yum -y install gcc make gcc-c++ openssl-devel wget去node.js中文网下载linux 64位的安装文件 xxx.tar.xz解压缩文件 xz -d node-v8.1.3-linux-x64.tar.xz 再解压缩 tar -xvf node-v8.1.3-linux-x64.tar把文件直接移到 指定文件夹中 su">
-<meta name="keywords" content="YAYA,Hexo">
-<meta property="og:type" content="article">
-<meta property="og:title" content="建站笔记">
-<meta property="og:url" content="http://sowhatxie.top/2016/07/12/建站笔记/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="领江的小博客">
+<meta property="og:url" content="http://sowhatxie.top/tags/ML/index.html">
 <meta property="og:site_name" content="领江的小博客">
-<meta property="og:description" content="安装node.js准备命令： yum -y install gcc make gcc-c++ openssl-devel wget去node.js中文网下载linux 64位的安装文件 xxx.tar.xz解压缩文件 xz -d node-v8.1.3-linux-x64.tar.xz 再解压缩 tar -xvf node-v8.1.3-linux-x64.tar把文件直接移到 指定文件夹中 su">
-<meta property="og:updated_time" content="2017-07-14T03:36:47.097Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="建站笔记">
-<meta name="twitter:description" content="安装node.js准备命令： yum -y install gcc make gcc-c++ openssl-devel wget去node.js中文网下载linux 64位的安装文件 xxx.tar.xz解压缩文件 xz -d node-v8.1.3-linux-x64.tar.xz 再解压缩 tar -xvf node-v8.1.3-linux-x64.tar把文件直接移到 指定文件夹中 su">
+<meta name="twitter:title" content="领江的小博客">
     
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -123,91 +118,64 @@
   <div class="l_body">
     <div class='container clearfix'>
       <div class='l_main'>
-        <article id="post-建站笔记"
-  class="post white-box article-type-post"
-  itemscope itemprop="blogPost">
-	<section class='meta'>
-	<h2 class="title">
-  	<a href="/2016/07/12/建站笔记/">
-    	建站笔记
-    </a>
-  </h2>
-	<time>
-	  Jul 12, 2016
-	</time>
+        
+  <script>
+    window.subData= { title:'Tag : ML'}
+  </script>
+
+<section class="post-list">
 	
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
+      <a href="/2017/08/14/复盘一阶段/">
+        复盘一阶段
+      </a>
+    </h2>
+    
+    <time>
+      Aug 14, 2017
+    </time>
+		
     
     <div class='cats'>
         <a href="/categories/笔记/">笔记</a>
     </div>
 
-	</section>
-	
-		<section class="toc-wrapper"></section>
-	
-	<section class="article typo">
-  	<div class="article-entry" itemprop="articleBody">
-    	<p>安装node.js<br>准备命令： yum -y install gcc make gcc-c++ openssl-devel wget<br>去node.js中文网下载linux 64位的安装文件 xxx.tar.xz<br>解压缩文件 xz -d node-v8.1.3-linux-x64.tar.xz 再解压缩 tar -xvf node-v8.1.3-linux-x64.tar<br>把文件直接移到 指定文件夹中 sudo mv node-v8.1.3-linux-x64 /usr/local<br>配置环境变量 sudo vim /etc/profile 添加如下：export PATH=$PATH:/usr/local/nodejs/bin 生效 source /etc/profile<br>查看是否配置成功：echo $PATH<br>检查node.js是否配置成功 node -v npm -v<br><a id="more"></a><br>安装git:<br>直接安装：sudo yum install git<br>查看是否安装成功：git –version<br>查看安装位置：which git<br>配置git :git config –global user.name “LingJiangXie”<br>         git config –global user.email “xielj1994@outlook.com”<br>查看配置列表：git config –list</p>
-<p>在自己的git上新建一个 LingJiangXie.github.io（不能为空，否则没有节点）<br>ssh 密药配置 参考<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000" target="_blank" rel="external">http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000</a></p>
-<p>其他基本参考：<a href="http://www.cnblogs.com/wanghuaijun/p/7073296.html" target="_blank" rel="external">http://www.cnblogs.com/wanghuaijun/p/7073296.html</a></p>
-<p>部署服务时 出现问题参考：npm install hexo-deployer-git –save （此命令在新建的本地博客文件夹根目录执行）改了之后执行，然后再部署试试</p>
-<p>修改，更换完主题 重新执行<br>//生成静态文件<br>hexo generate</p>
-<p>//部署服务<br>hexo deploy</p>
-<p>还可以参考这个：</p>
-<p><a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/26625249</a> 比较全</p>
+  </section>
+  <section class="article typo">
+	  <h2 id="学习方法"><a href="#学习方法" class="headerlink" title="学习方法"></a>学习方法</h2><p>领域内，国际顶级会议：<br>internation conference on data mining  </p>
+<p>internation conference on data engineering  </p>
+<p>internation conference on machine learning  </p>
+<p>internation joint conference on artificial intelligence  </p>
+<p>pacific-asia conference on knowledge discoverry and data mining  </p>
+<p>acm sigkdd conference on knowledge iscoverry and data mining  </p>
+<p>还有一些IEEE的领域内顶级期刊</p>
+<p>跟踪领域内，专家</p>
+<p>必须用Google 搜文献</p>
+<p>利用 machine learning repository UCI 来收集数据集<br>
 
-  	</div>
-	  
-	  <div class="article-tags tags">
+    
+	  <div class="readmore">
+      <a href="/2017/08/14/复盘一阶段/">Read More</a>
+    </div>
+    
+    
+    
+	  <div class="full-width auto-padding tags">
       
-        <a href="/tags/YAYA/">YAYA</a>
-      
-        <a href="/tags/Hexo/">Hexo</a>
+        <a href="/tags/ML/">ML</a>
       
 	  </div>
     
-		
-	
-		<div class="art-item-footer">
-				
-					<span class="art-item-left"><i class="icon icon-chevron-thin-left"></i>prev：<a href="/2017/05/13/markdown 测试/" rel="prev"  title="markdown测试">
-						markdown测试 
-					</a></span>
-				
-				
-		</div>
-	
-	</section>
-	
-
-<br />
-
-<!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-	<a class="jiathis_button_fb"></a>
-	<a class="jiathis_button_twitter"></a>
-	<a class="jiathis_button_linkedin"></a>
-	<a class="jiathis_button_weixin"></a>
-	<a class="jiathis_button_tsina"></a>
-	<a class="jiathis_button_fav"></a>
-	<a href="http://www.jiathis.com/share?uid=2138754" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-</div>
-<script type="text/javascript">
-var jiathis_config = {data_track_clickback:'true'};
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2138754" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-<br />
-
-
-
+  </section>
 </article>
-<script>
-	window.subData = {
-		title: '建站笔记',
-		tools: true
-	}
-</script>
+    </div>
+  
+</section>
+
 
       </div>
       <aside class='l_side'>
