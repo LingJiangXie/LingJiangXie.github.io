@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Archives: 2017/2 | 领江的小博客</title>
+  <title>Archives: 2017/7 | 领江的小博客</title>
   <meta name="description" content="null" />
   <meta name="keywords" content="" />
   <meta name="HandheldFriendly" content="True" />
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="领江的小博客">
-<meta property="og:url" content="http://sowhatxie.top/archives/2017/02/index.html">
+<meta property="og:url" content="http://sowhatxie.top/archives/2017/07/index.html">
 <meta property="og:site_name" content="领江的小博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="领江的小博客">
@@ -121,49 +121,38 @@
         
 	
   <script>
-    window.subData= { title:'Year : 2017.2'}
+    window.subData= { title:'Year : 2017.7'}
   </script>
 
 <section class="post-list">
 	
     <div class='post-wrapper'>
-      <article class="post reveal">
+      <article class="post revealno-title">
   <section class="meta">
     
-    <h2 class="title">
-      <a href="/2017/02/13/测试/">
-        测试
-      </a>
-    </h2>
-    
     <time>
-      Feb 13, 2017
+      Jul 15, 2017
     </time>
 		
-    
-    <div class='cats'>
-        <a href="/categories/笔记/">笔记</a>
-    </div>
-
   </section>
   <section class="article typo">
-	  <p>因为我们的博文都是用Markdown语言写的，所以首先，你需要一个好用的Markdown编辑器。其实好用的Markdown编辑器一大堆，这里就给大家推荐两个，如果你用的不习惯也可以换其它的。</p>
-<pre><code>本地编辑器：Haroopad，非常小众的一款Markdown编辑器，左边编辑右边实时预览效果，非常轻便；
-
-在线编辑器：MaHua，也是比较小众的一款Markdown编辑器，但效果确实很棒，我的这篇博文就是用MaHua写的。
-</code></pre><p><img src="http://ot11hkokg.bkt.clouddn.com/17-7-13/8384467.jpg" alt="hello"></p>
-<p>‘’‘<br>from django import template import mistune from pygments import highlight from pygments.lexers import get_lexer_by_name from pygments.formatters import HtmlFormatter register = template.Library() def block_code(text, lang, inlinestyles=False, linenos=False): if not lang: text = text.strip() return u’<pre><code>%s</code></pre>\n’ % mistune.escape(text) try: lexer = get_lexer_by_name(lang, stripall=True) formatter = HtmlFormatter( noclasses=inlinestyles, linenos=linenos ) code = highlight(text, lexer, formatter) if linenos: return ‘<div class="highlight">%s</div>\n’ % code return code except: return ‘<pre class="%s"><code>%s</code></pre>\n’ % ( lang, mistune.escape(text) ) class HighlightMixin(object): def block_code(self, text, lang): # renderer has an options inlinestyles = self.options.get(‘inlinestyles’) linenos = self.options.get(‘linenos’) return block_code(text, lang, inlinestyles, linenos) class TocRenderer(HighlightMixin, mistune.Renderer): pass @register.filter def markdown_detail(value): renderer = TocRenderer(linenos=True, inlinestyles=False) mdp = mistune.Markdown(escape=True, renderer=renderer) return mdp(value)</p>
-<p>作者：大阿拉伯人<br>链接：<a href="http://www.jianshu.com/p/2909aed83dad" target="_blank" rel="external">http://www.jianshu.com/p/2909aed83dad</a><br>來源：简书<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。<br>’‘’</p>
-
+	  <h2 id="学习方法"><a href="#学习方法" class="headerlink" title="学习方法"></a>学习方法</h2><p>领域内，国际顶级会议：<br>internation conference on data mining  </p>
+<p>internation conference on data engineering  </p>
+<p>internation conference on machine learning  </p>
+<p>internation joint conference on artificial intelligence  </p>
+<p>pacific-asia conference on knowledge discoverry and data mining  </p>
+<p>acm sigkdd conference on knowledge iscoverry and data mining  </p>
+<p>还有一些IEEE的领域内顶级期刊</p>
+<p>跟踪领域内，专家</p>
+<p>必须用Google 搜文献</p>
+<p>利用 machine learning repository UCI 来收集数据集<br>
 
     
+	  <div class="readmore">
+      <a href="/2017/07/15/复盘一阶段/">Read More</a>
+    </div>
     
     
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/YAYA/">YAYA</a>
-      
-	  </div>
     
   </section>
 </article>
@@ -195,7 +184,7 @@
     
     <ul class="entry">
     
-        <li><a class="flat-box" href="/categories/笔记/"><div class='name'>笔记</div><div class='badget'>4</div></a></li>
+        <li><a class="flat-box" href="/categories/笔记/"><div class='name'>笔记</div><div class='badget'>3</div></a></li>
     
     </ul>
     
@@ -206,7 +195,7 @@
 <div class="m_widget tagcloud">
     <div class="header">Tags</div>
     <div class='content'>
-        <a href="/tags/Hexo/" style="font-size: 14px; color: #808080">Hexo</a> <a href="/tags/YAYA/" style="font-size: 20px; color: #000">YAYA</a>
+        <a href="/tags/Hexo/" style="font-size: 14px; color: #808080">Hexo</a> <a href="/tags/YAYA/" style="font-size: 14px; color: #808080">YAYA</a>
     </div>
 </div>
 
