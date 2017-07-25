@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Archives: 2017 | 领江的小博客</title>
+  <title>Tag: 算法 | 领江的小博客</title>
   <meta name="description" content="null" />
   <meta name="keywords" content="" />
   <meta name="HandheldFriendly" content="True" />
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="领江的小博客">
-<meta property="og:url" content="http://sowhatxie.top/archives/2017/index.html">
+<meta property="og:url" content="http://sowhatxie.top/tags/算法/index.html">
 <meta property="og:site_name" content="领江的小博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="领江的小博客">
@@ -119,135 +119,12 @@
     <div class='container clearfix'>
       <div class='l_main'>
         
-	
   <script>
-    window.subData= { title:'Year : 2017'}
+    window.subData= { title:'Tag : 算法'}
   </script>
 
 <section class="post-list">
 	
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2017/08/14/复盘一阶段/">
-        复盘一阶段
-      </a>
-    </h2>
-    
-    <time>
-      Aug 14, 2017
-    </time>
-		
-    
-    <div class='cats'>
-        <a href="/categories/笔记/">笔记</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <h2 id="学习方法"><a href="#学习方法" class="headerlink" title="学习方法"></a>学习方法</h2><p>领域内，国际顶级会议：<br>internation conference on data mining  </p>
-<p>internation conference on data engineering  </p>
-<p>internation conference on machine learning  </p>
-<p>internation joint conference on artificial intelligence  </p>
-<p>pacific-asia conference on knowledge discoverry and data mining  </p>
-<p>acm sigkdd conference on knowledge iscoverry and data mining  </p>
-<p>还有一些IEEE的领域内顶级期刊</p>
-<p>跟踪领域内，专家</p>
-<p>必须用Google 搜文献</p>
-<p>利用 machine learning repository UCI 来收集数据集<br>
-
-    
-	  <div class="readmore">
-      <a href="/2017/08/14/复盘一阶段/">Read More</a>
-    </div>
-    
-    
-    
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/ML/">ML</a>
-      
-	  </div>
-    
-  </section>
-</article>
-    </div>
-  
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2017/07/14/范数/">
-        范数
-      </a>
-    </h2>
-    
-    <time>
-      Jul 14, 2017
-    </time>
-		
-    
-    <div class='cats'>
-        <a href="/categories/笔记/">笔记</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <h1 id="范数"><a href="#范数" class="headerlink" title="范数"></a>范数</h1><p>   训练模型的目的就是让训练出的模型在测试集上有很小的误差。（而不是追求最小的训练误差，虽然最终的目的是想要在将来预测时最准，但是未来是未知的，只能寻求最小的测试误差）  </p>
-<p>监督机器学习问题无非就是“minimize your error while regularizing your parameters”，也就是在规则化参数的同时最小化误差。    </p>
-<p>最小化误差，为了让模型充分拟合训练集；规则化参数，防止模型过拟合训练集。（参数过多，模型复杂度上升，易过拟合）  </p>
-<p>所以实际操作中，通过规则化参数来使得模型足够简单（防止过拟合），在此基础上最小化误差（使参数有较好的泛化性能）。  </p>
-<p>规则化参数实现方式：通过规则函数。此外规则项可以用来约束模型的特性（可以把一些先验的领域知识经验，融合进模型的学习之中）。通常想要模型拥有的特性包括：稀疏，低秩，平滑等等。  </p>
-<p>规则化作用的其他角度：  </p>
-<ol>
-<li>规则化符合奥卡姆剃刀(Occam’s razor)原理。在所有可能选择的模型中，我们应该选择能够很好地解释已知数据并且十分简单的模型。  </li>
-<li>从贝叶斯估计的角度来看，规则化项对应于模型的先验概率。  </li>
-<li>规则化是结构风险最小化策略的实现，是在经验风险上加一个正则化项(regularizer)或惩罚项(penalty term)。  </li>
-</ol>
-<p>对于监督学习：最小化的目标函数一般都是由 损失函数 规则项 两部分组成。<br>损失函数，衡量预测值与实际值的误差大小，具有不同的拟合特性。规则项就是用来对参数规则化，使得模型尽量简单。  </p>
-<p>L0范数是指向量中非0的元素的个数。目的就是使得参数大部分元素都是0. L1范数是指向量中各个元素绝对值之和，也叫“稀疏规则算子”（Lasso regularization）。  </p>
-<p>原理解释：L1范数可以使权值稀疏 -&gt; L1范数是L0范数的最优凸近似 -&gt; 任何的规则化算子，如果他在Wi=0的地方不可微，并且可以分解为一个“求和”的形式，那么这个规则化算子就可以实现稀疏。  </p>
-<p>为什么用L1不用L0？一是因为L0范数很难优化求解（NP难问题），二是L1范数是L0范数的最优凸近似，而且它比L0范数要容易优化求解。  </p>
-<p>参数稀疏的优点：  </p>
-<ol>
-<li>特征选择(Feature Selection)：能实现特征的自动选择。一般来说，xi的大部分元素（也就是特征）都是和最终的输出yi没有关系或者不提供任何信息的，在最小化目标函数的时候考虑xi这些额外的特征，虽然可以获得更小的训练误差，但在预测新的样本时，这些没用的信息反而会被考虑，从而干扰了对正确yi的预测。稀疏规则化算子的引入就是为了完成特征自动选择，它会学习地去掉这些没有信息的特征，也就是把这些特征对应的权重置为0。</li>
-<li>可解释性(Interpretability)：当特征对应的权值大部分通过规则化处理后为0后，仅有少部分的权值对应为非零，这样在实际问题中，只需要对少有的几个特征进行判别就可以了，增强了解释性和操作性。    </li>
-</ol>
-<p>L2范数（岭回归 Ridge Regression 或 权值衰减 weight decay）：L2范数是指向量各元素的平方和然后求平方根。使L2范数对应规则项最小，就变向使得w权值的每个元素都很小，都接近于0。区别于L1范数，L2范数使得权值接近于0，但不等于0。（可以这么认为，越小的权值参数意味着模型越简单，越不容易过拟合）  </p>
-<p>网友的理解： </p>
-<p>L2范数最开始的意思应该不是让参数小，而是把参数w限制在某个范围内：min（loss function L） , 约束条件 ||w||2 &lt; M;用数学转成等价形式为min( L+入||w||2)。从新的形势看就成了参数小则model简单。 从回归理解，加入L2范数使得可逆有解；从线性分类器理解，w越小，y=wx+b，x变化很大，y才变化一点点，更stable，更general。大的权值对对函数的扰动就大。  </p>
-<p>可以解释抗干扰能力强这个特点。但我的另一个观点是：其实对于模型简单这个特点来说，L2不应该和L1比较，或者说这两种选择下得到的模型都简单，L1倾向于选择使得特征数目较少，对于多项式函数来说，也就是多项式次数比较低，这当然是一个简单的模型。而对于L2来说，多项式次数虽然高于L1，但是它的每一项系数非常小，所以在每一个样本点附近的导数（该导数代表了模型的复杂度，也就是方差）同样可以小，因此对于过拟合问题也有很好的预防能力。所以，我的结论是：在过拟合这点上，L1和L2无法进行比较，各自在其他方面有不同的侧重点而已。    </p>
-<p>解释L2范数的优点：  </p>
-<ol>
-<li>学习理论的角度：从学习理论的角度来说，L2范数可以防止过拟合，提升模型的泛化能力。</li>
-<li>优化计算的角度：从优化或者数值计算的角度来说，L2范数有助于处理 condition number不好的情况下矩阵求逆很困难的问题。可以让我们的优化求解变得稳定和快速。  </li>
-</ol>
-<p>解释 condition number ：优化的两大难题：局部最小值（我们要找的是全局最小值，如果局部最小值太多，那我们的优化算法就很容易陷入局部最小而不能自拔）；ill-condition病态问题：condition number就是用来衡量病态程度的。ill-condition对应的是well-condition。condition number就是拿来衡量ill-condition系统的可信度的。condition number衡量的是输入发生微小变化的时候，输出会发生多大的变化。也就是系统对微小变化的敏感度。condition number值小的就是well-conditioned的，大的就是ill-conditioned的。如果方阵A是非奇异的（可逆的，满秩的），那么A的conditionnumber定义为矩阵A的norm（范数）乘以它的逆的norm。范数可以理解为用来衡量矩阵大小的。表示矩阵大小或者向量长度。总结：conditionnumber是一个矩阵（或者它所描述的线性系统）的稳定性或者敏感度的度量，如果一个矩阵的condition number在1附近，那么它就是well-conditioned的，如果远大于1，那么它就是ill-conditioned的，如果一个系统是ill-conditioned的，它的输出结果就不要太相信了。</p>
-<p>奇异矩阵的概念：直接的理解，矩阵奇异就是说明矩阵不是满秩的。由于理解矩阵有很多角度，可以进一步理解。从行列式角度看，若矩阵的行列式等于0，矩阵就是奇异矩阵，从矩阵是否可逆的角度，矩阵不可逆（行列式为0），说明矩阵就是奇异矩阵。从解方程组角度看，如果A为奇异矩阵，则AX=0有无穷解，AX=b有无穷解或者无解。  </p>
-<p>上面说的矩阵的秩，可以理解为组成矩阵的向量之间相关性，满秩就说明向量之间全部线性无关。  </p>
-<p>从优化或者数值计算的角度来说，L2范数有助于处理 condition number不好的情况下矩阵求逆很困难的问题。因为目标函数如果是二次的，对于线性回归来说，那实际上是有解析解的，求导并令导数等于零即可得到最优解。然而，如果当我们的样本X的数目比每个样本的维度还要小的时候，矩阵XTX将会不是满秩的，也就是XTX会变得不可逆，所以w*就没办法直接计算出来了。或者更确切地说，将会有无穷多个解（因为我们方程组的个数小于未知数的个数）。也就是说，我们的数据不足以确定一个解，如果我们从所有可行解里随机选一个的话，很可能并不是真正好的解，总而言之，我们过拟合了。而如果加上L2规则项就可以直接求逆了。规则项的引入则可以改善condition number。 另外，如果使用迭代优化的算法，condition number 太大仍然会导致问题：它会拖慢迭代的收敛速度，而规则项从优化的角度来看，实际上是将目标函数变成λ-strongly convex（λ强凸）的了。  </p>
-<p>对于λ-strongly convex（λ强凸）：普通的优化问题，强调是convex函数。convex性质说明函数曲线总是位于任意点处切线的上方。而strongly convex 则进一步要求位于该处的一个二次函数上方，也就是说要求函数不要太“平坦”而是可以保证有一定的“向上弯曲”的趋势。专业点说，就是convex 可以保证函数在任意一点都处于它的一阶泰勒函数之上，而strongly convex可以保证函数在任意一点都存在一个非常漂亮的二次下界quadratic lower bound。这是一个很强的假设。仅仅靠convex 性质并不能保证在梯度下降和有限的迭代次数的情况下得到的点w会是一个比较好的全局最小点w<em>的近似点，如果f(w)在全局最小点w</em>周围是非常平坦的情况的话，我们有可能会找到一个很远的点。但如果我们有“强凸”的话，就能对情况做一些控制，我们就可以得到一个更好的近似解。至于有多好嘛，这里面有一个bound，这个 bound 的好坏也要取决于strongly convex性质中的常数α的大小。看到这里，不知道大家学聪明了没有。如果要获得strongly convex怎么做？最简单的就是往里面加入一项(α/2)*||w||2。总的说，在梯度下降中，目标函数收敛速率的上界实际上是和矩阵XTX的 condition number有关，XTX的 condition number 越小，上界就越小，也就是收敛速度会越快。  </p>
-<p>参考：<a href="http://blog.csdn.net/zouxy09/article/details/24971995" target="_blank" rel="external">http://blog.csdn.net/zouxy09/article/details/24971995</a>  </p>
-
-
-    
-    
-    
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/ML/">ML</a>
-      
-        <a href="/tags/基础知识/">基础知识</a>
-      
-	  </div>
-    
-  </section>
-</article>
-    </div>
-  
     <div class='post-wrapper'>
       <article class="post reveal">
   <section class="meta">
@@ -321,7 +198,6 @@
     </div>
   
 </section>
-
 
 
       </div>

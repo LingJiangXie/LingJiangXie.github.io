@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Archives: 2017 | 领江的小博客</title>
+  <title>Tag: 基础知识 | 领江的小博客</title>
   <meta name="description" content="null" />
   <meta name="keywords" content="" />
   <meta name="HandheldFriendly" content="True" />
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="领江的小博客">
-<meta property="og:url" content="http://sowhatxie.top/archives/2017/index.html">
+<meta property="og:url" content="http://sowhatxie.top/tags/基础知识/index.html">
 <meta property="og:site_name" content="领江的小博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="领江的小博客">
@@ -119,62 +119,12 @@
     <div class='container clearfix'>
       <div class='l_main'>
         
-	
   <script>
-    window.subData= { title:'Year : 2017'}
+    window.subData= { title:'Tag : 基础知识'}
   </script>
 
 <section class="post-list">
 	
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2017/08/14/复盘一阶段/">
-        复盘一阶段
-      </a>
-    </h2>
-    
-    <time>
-      Aug 14, 2017
-    </time>
-		
-    
-    <div class='cats'>
-        <a href="/categories/笔记/">笔记</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <h2 id="学习方法"><a href="#学习方法" class="headerlink" title="学习方法"></a>学习方法</h2><p>领域内，国际顶级会议：<br>internation conference on data mining  </p>
-<p>internation conference on data engineering  </p>
-<p>internation conference on machine learning  </p>
-<p>internation joint conference on artificial intelligence  </p>
-<p>pacific-asia conference on knowledge discoverry and data mining  </p>
-<p>acm sigkdd conference on knowledge iscoverry and data mining  </p>
-<p>还有一些IEEE的领域内顶级期刊</p>
-<p>跟踪领域内，专家</p>
-<p>必须用Google 搜文献</p>
-<p>利用 machine learning repository UCI 来收集数据集<br>
-
-    
-	  <div class="readmore">
-      <a href="/2017/08/14/复盘一阶段/">Read More</a>
-    </div>
-    
-    
-    
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/ML/">ML</a>
-      
-	  </div>
-    
-  </section>
-</article>
-    </div>
-  
     <div class='post-wrapper'>
       <article class="post reveal">
   <section class="meta">
@@ -248,80 +198,7 @@
 </article>
     </div>
   
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2017/06/13/动态规划 -> 递归的优化 -> 尾递归 -> 迭代  /">
-        动态规划 -&gt; 贪心 -&gt; 递归的优化 -&gt; 尾递归 -&gt; 迭代
-      </a>
-    </h2>
-    
-    <time>
-      Jun 13, 2017
-    </time>
-		
-    
-    <div class='cats'>
-        <a href="/categories/笔记/">笔记</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <h1 id="动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代"><a href="#动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代" class="headerlink" title="动态规划 -&gt; 贪心 -&gt; 递归的优化 -&gt; 尾递归 -&gt; 迭代"></a>动态规划 -&gt; 贪心 -&gt; 递归的优化 -&gt; 尾递归 -&gt; 迭代</h1><h2 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h2><p>&emsp;&emsp;动态规划（Dynamic Programming）和分治算法比较类似，但不同的是分治算法把原问题划归为几个相互独立的子问题，从而一一解决，而动态规划则是针对子问题有重叠的情况的一种解决方案。对于有重叠的情况，就是用一张表来保存子问题的中间结果，这样遇到重复的问题就不需要重新计算而是查表即可。  </p>
-<p>&emsp;&emsp;目前设计动态规划主要有两个思路：</p>
-<p>&emsp;&emsp;一个是利用递归方法，即首先把问题用递归的方法解决，然后用一张表保存递归中的中间结果。遇到需要计算以前计算过的东西，直接查表。</p>
-<p>&emsp;&emsp;另一个思路是exhaust search。    </p>
-<p>&emsp;&emsp;动态规划只能应用于最优子结构问题，最优子结构的意思是局部最优解能决定全局最优解（对有些问题这个要求并不能完全满足，故有时需要引入一定的近似）。简单地说，问题能够分解成子问题来解决。</p>
-<p>适用情况：  </p>
-<ol>
-<li><p>最优子结构性质。如果问题的最优解所包含的子问题的解也是最优的，我们就称该问题具有最优子结构性质。最优子结构性质为动态规划算法解决问题提供了重要线索。</p>
-</li>
-<li><p>无后效性。即子问题的解一旦确定，就不再改变，不受在这之后，包含他的最大的问题的求解决策影响。</p>
-</li>
-<li><p>子问题重叠性质。子问题重叠性质是指在用递归算法自顶向下对问题进行求解时，每次产生的子问题并不是总是新问题，有些子问题会被重复计算多次。动态规划算法正是利用了这种子问题的重叠性质，对每个子问题只计算一次，然后将其计算结果保存在一个表格中，当再次需要计算已经计算过的子问题时，只是在表格中简单地察看一下结果，从而获得较高的效率。  </p>
-</li>
-</ol>
-<p>动态规划的本质，是对问题状态的定义和状态转移方程的定义。  </p>
-<p>基础概念：问题的阶段与问题的状态。对于递推，无需考虑是不是需要更多的状态，也不需要选择哪些旧状态来计算新状态（递推公式本身已经决定了如 a[i]=a[i-1]+a[i-2]）。一般的情况，假如问题有n个阶段，每个阶段有多个状态，不同阶段的状态数不必相同，一个阶段的一个状态可以得到下个阶段的所有状态中的几个。那我们要计算出最终阶段的状态数自然要经历之前每个阶段的某些状态。  </p>
-<p>贪心：“下一步最优是从当前最优得到的”。为了计算最终的最优值，只需要存储每一步的最优值即可，解决这种性质的问题的算法叫做贪心。  </p>
-<p>总结：  </p>
-<p>每个阶段只有一个状态————-递推（递归是递推式求解的方法）</p>
-<p>每个阶段的最优状态都是由上一个阶段的最优状态得到的———-贪心（每一步的最优解一定依赖上一步的最优解。）</p>
-<p>每个阶段的最优状态是由之前所有阶段的状态的组合得到的———搜索</p>
-<p>每个阶段的最优状态可以从之前某个阶段的某个或某些状态直接得到而不管之前这个状态时如何得到的——动态规划  （全局最优解中一定包含某个局部最优解，但不一定包含前一个局部最优解，因此需要记录之前的所有最优解。）</p>
-<p>每个阶段的最优状态可以从之前某个或某些状态直接得到，这个性质叫做最优子结构；</p>
-<p>而不管这个状态是如何得到的，这个性质叫做无后效性。</p>
-<p>另外，其实动态规划中的最优状态的说法容易产生误导，以为只需要计算最优状态就好，LIS问题却是如此，转移时只用了每个阶段的选的状态，但实际上有的问题往往需要对每个阶段的所有状态都作出一个最优值，然后根据这些最优值再来找最优状态。  </p>
-<h2 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h2><p>贪心算法总是作出在当前看来最好的选择。也就是说贪心算法并不从整体最优考虑，它所作出的选择只是在某种意义上的局部最优选择。虽然贪心并不保证得到全局最优，但是在某些问题，或是在某些约束下，可以得到全局的最优，或者说在一些情况下，即使贪心算法不能得到整体最优解，其最终结果却是最优解的很好近似。  </p>
-<h2 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h2><p><a href="http://www.cnblogs.com/codeskiller/p/6477181.html" target="_blank" rel="external">http://www.cnblogs.com/codeskiller/p/6477181.html</a></p>
-<h2 id="递归优化之Memoization"><a href="#递归优化之Memoization" class="headerlink" title="递归优化之Memoization"></a>递归优化之Memoization</h2><p>&emsp;&emsp;一般的递归有个很明显的缺点，就是可能会重复计算。有一种可以用来克服这个缺点的方法就是利用Memoization这种思路。使用表来记录中间的结果。  </p>
-<p>&emsp;&emsp;Memoization最初是用来优化计算机程序使之计算的更快的技术，是通过存储调用函数的结果并且在同样参数传进来的时候返回结果。大部分应该是在递归函数中使用。<br> &emsp;&emsp;Memorization 可以把函数每次的返回值存在一个数组或者对象中，在接下来的计算中可以直接读取已经计算过并且返回的数据，不用重复多次相同的计算。这种方法可用于部分递归中以提高递归的效率。<br> &emsp;&emsp;但是这个优化的方法有一个缺点，就是会使得调用栈会很深。如何避免这种调用栈深的情况，下面介绍尾递归。    </p>
-<h2 id="递归优化之尾递归"><a href="#递归优化之尾递归" class="headerlink" title="递归优化之尾递归"></a>递归优化之尾递归</h2><p>&emsp;&emsp;这里我只说一下最关键的一点：尾递归就是递归函数最后一步调用自己的那一步，只是单纯的调用自己，不能出现其他的什么鬼。（注意是程序执行的最后一步而非最后一行代码）  </p>
-<p>&emsp;&emsp;这边有个大神讲尾递归很好直接贴出网址 ：<a href="http://www.ruanyifeng.com/blog/2015/04/tail-call.html" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2015/04/tail-call.html</a><br>他的博文涉及很多背景知识，也进行了相关介绍：函数的尾调用，函数调用的机制，尾递归，柯里化（currying）等。   </p>
-<p>&emsp;&emsp;另外这边的讨论也挺好，可以参考： <a href="https://www.zhihu.com/question/20761771/answer/19996299" target="_blank" rel="external">https://www.zhihu.com/question/20761771/answer/19996299</a></p>
-<h2 id="迭代"><a href="#迭代" class="headerlink" title="迭代"></a>迭代</h2><p>&emsp;&emsp;迭代是代码中经常使用的东西，这里讲迭代，主要是因为把递归函数转化为迭代。为什么要转化为迭代？原因在于，Java,Python等语言（C好像有优化），对于尾递归并没有优化，某些场景是需要转化为迭代处理。  </p>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>&emsp;&emsp;其实还有很多优化的方式，可以继续探索！</p>
-
-
-    
-    
-    
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/算法/">算法</a>
-      
-        <a href="/tags/LeetCode/">LeetCode</a>
-      
-	  </div>
-    
-  </section>
-</article>
-    </div>
-  
 </section>
-
 
 
       </div>
