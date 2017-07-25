@@ -114,14 +114,13 @@
     <link href="http://sowhatxie.top/2017/07/14/%E8%8C%83%E6%95%B0/"/>
     <id>http://sowhatxie.top/2017/07/14/范数/</id>
     <published>2017-07-14T07:17:10.000Z</published>
-    <updated>2017-07-25T08:50:48.608Z</updated>
+    <updated>2017-07-25T08:53:49.291Z</updated>
     
     <content type="html"><![CDATA[<h1 id="范数"><a href="#范数" class="headerlink" title="范数"></a>范数</h1><p>   训练模型的目的就是让训练出的模型在测试集上有很小的误差。（而不是追求最小的训练误差，虽然最终的目的是想要在将来预测时最准，但是未来是未知的，只能寻求最小的测试误差）  </p>
 <p>监督机器学习问题无非就是“minimize your error while regularizing your parameters”，也就是在规则化参数的同时最小化误差。    </p>
 <p>最小化误差，为了让模型充分拟合训练集；规则化参数，防止模型过拟合训练集。（参数过多，模型复杂度上升，易过拟合）  </p>
 <p>所以实际操作中，通过规则化参数来使得模型足够简单（防止过拟合），在此基础上最小化误差（使参数有较好的泛化性能）。  </p>
-<p>规则化参数实现方式：通过规则函数。此外规则项可以用来约束模型的特性（可以把一些先验的领域知识经验，融合进模型的学习之中）。通常想要模型拥有的特性包括：稀疏，低秩，平滑等等。  </p>
-<p>规则化作用的其他角度：  </p>
+<p>规则化参数实现方式：通过规则函数。此外规则项可以用来约束模型的特性（可以把一些先验的领域知识经验，融合进模型的学习之中）。通常想要模型拥有的特性包括：稀疏，低秩，平滑等等。<br><a id="more"></a><br>规则化作用的其他角度：  </p>
 <ol>
 <li>规则化符合奥卡姆剃刀(Occam’s razor)原理。在所有可能选择的模型中，我们应该选择能够很好地解释已知数据并且十分简单的模型。  </li>
 <li>从贝叶斯估计的角度来看，规则化项对应于模型的先验概率。  </li>
@@ -155,7 +154,11 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;范数&quot;&gt;&lt;a href=&quot;#范数&quot; class=&quot;headerlink&quot; title=&quot;范数&quot;&gt;&lt;/a&gt;范数&lt;/h1&gt;&lt;p&gt;   训练模型的目的就是让训练出的模型在测试集上有很小的误差。（而不是追求最小的训练误差，虽然最终的目的是想要在将来预测时最准，但是未来是未
+      &lt;h1 id=&quot;范数&quot;&gt;&lt;a href=&quot;#范数&quot; class=&quot;headerlink&quot; title=&quot;范数&quot;&gt;&lt;/a&gt;范数&lt;/h1&gt;&lt;p&gt;   训练模型的目的就是让训练出的模型在测试集上有很小的误差。（而不是追求最小的训练误差，虽然最终的目的是想要在将来预测时最准，但是未来是未知的，只能寻求最小的测试误差）  &lt;/p&gt;
+&lt;p&gt;监督机器学习问题无非就是“minimize your error while regularizing your parameters”，也就是在规则化参数的同时最小化误差。    &lt;/p&gt;
+&lt;p&gt;最小化误差，为了让模型充分拟合训练集；规则化参数，防止模型过拟合训练集。（参数过多，模型复杂度上升，易过拟合）  &lt;/p&gt;
+&lt;p&gt;所以实际操作中，通过规则化参数来使得模型足够简单（防止过拟合），在此基础上最小化误差（使参数有较好的泛化性能）。  &lt;/p&gt;
+&lt;p&gt;规则化参数实现方式：通过规则函数。此外规则项可以用来约束模型的特性（可以把一些先验的领域知识经验，融合进模型的学习之中）。通常想要模型拥有的特性包括：稀疏，低秩，平滑等等。&lt;br&gt;
     
     </summary>
     
@@ -173,14 +176,13 @@
     <link href="http://sowhatxie.top/2017/06/13/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%20-%3E%20%E9%80%92%E5%BD%92%E7%9A%84%E4%BC%98%E5%8C%96%20-%3E%20%E5%B0%BE%E9%80%92%E5%BD%92%20-%3E%20%E8%BF%AD%E4%BB%A3%20%20/"/>
     <id>http://sowhatxie.top/2017/06/13/动态规划 -&gt; 递归的优化 -&gt; 尾递归 -&gt; 迭代  /</id>
     <published>2017-06-13T07:17:10.000Z</published>
-    <updated>2017-07-25T08:49:12.321Z</updated>
+    <updated>2017-07-25T08:53:40.121Z</updated>
     
     <content type="html"><![CDATA[<h1 id="动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代"><a href="#动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代" class="headerlink" title="动态规划 -&gt; 贪心 -&gt; 递归的优化 -&gt; 尾递归 -&gt; 迭代"></a>动态规划 -&gt; 贪心 -&gt; 递归的优化 -&gt; 尾递归 -&gt; 迭代</h1><h2 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h2><p>&emsp;&emsp;动态规划（Dynamic Programming）和分治算法比较类似，但不同的是分治算法把原问题划归为几个相互独立的子问题，从而一一解决，而动态规划则是针对子问题有重叠的情况的一种解决方案。对于有重叠的情况，就是用一张表来保存子问题的中间结果，这样遇到重复的问题就不需要重新计算而是查表即可。  </p>
 <p>&emsp;&emsp;目前设计动态规划主要有两个思路：</p>
 <p>&emsp;&emsp;一个是利用递归方法，即首先把问题用递归的方法解决，然后用一张表保存递归中的中间结果。遇到需要计算以前计算过的东西，直接查表。</p>
 <p>&emsp;&emsp;另一个思路是exhaust search。    </p>
-<p>&emsp;&emsp;动态规划只能应用于最优子结构问题，最优子结构的意思是局部最优解能决定全局最优解（对有些问题这个要求并不能完全满足，故有时需要引入一定的近似）。简单地说，问题能够分解成子问题来解决。</p>
-<p>适用情况：  </p>
+<p>&emsp;&emsp;动态规划只能应用于最优子结构问题，最优子结构的意思是局部最优解能决定全局最优解（对有些问题这个要求并不能完全满足，故有时需要引入一定的近似）。简单地说，问题能够分解成子问题来解决。<br><a id="more"></a><br>适用情况：  </p>
 <ol>
 <li><p>最优子结构性质。如果问题的最优解所包含的子问题的解也是最优的，我们就称该问题具有最优子结构性质。最优子结构性质为动态规划算法解决问题提供了重要线索。</p>
 </li>
@@ -213,7 +215,11 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代&quot;&gt;&lt;a href=&quot;#动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代&quot; class=&quot;headerlink&quot; title=&quot;动态规划 -&amp;gt; 贪心 -&amp;gt; 递归的优化 -&amp;
+      &lt;h1 id=&quot;动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代&quot;&gt;&lt;a href=&quot;#动态规划-gt-贪心-gt-递归的优化-gt-尾递归-gt-迭代&quot; class=&quot;headerlink&quot; title=&quot;动态规划 -&amp;gt; 贪心 -&amp;gt; 递归的优化 -&amp;gt; 尾递归 -&amp;gt; 迭代&quot;&gt;&lt;/a&gt;动态规划 -&amp;gt; 贪心 -&amp;gt; 递归的优化 -&amp;gt; 尾递归 -&amp;gt; 迭代&lt;/h1&gt;&lt;h2 id=&quot;动态规划&quot;&gt;&lt;a href=&quot;#动态规划&quot; class=&quot;headerlink&quot; title=&quot;动态规划&quot;&gt;&lt;/a&gt;动态规划&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;动态规划（Dynamic Programming）和分治算法比较类似，但不同的是分治算法把原问题划归为几个相互独立的子问题，从而一一解决，而动态规划则是针对子问题有重叠的情况的一种解决方案。对于有重叠的情况，就是用一张表来保存子问题的中间结果，这样遇到重复的问题就不需要重新计算而是查表即可。  &lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;目前设计动态规划主要有两个思路：&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;一个是利用递归方法，即首先把问题用递归的方法解决，然后用一张表保存递归中的中间结果。遇到需要计算以前计算过的东西，直接查表。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;另一个思路是exhaust search。    &lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;动态规划只能应用于最优子结构问题，最优子结构的意思是局部最优解能决定全局最优解（对有些问题这个要求并不能完全满足，故有时需要引入一定的近似）。简单地说，问题能够分解成子问题来解决。&lt;br&gt;
     
     </summary>
     

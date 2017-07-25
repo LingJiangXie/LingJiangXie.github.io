@@ -19,7 +19,7 @@
 <meta property="og:url" content="http://sowhatxie.top/2017/06/13/动态规划 -> 递归的优化 -> 尾递归 -> 迭代  /index.html">
 <meta property="og:site_name" content="领江的小博客">
 <meta property="og:description" content="动态规划 -&amp;gt; 贪心 -&amp;gt; 递归的优化 -&amp;gt; 尾递归 -&amp;gt; 迭代动态规划&amp;emsp;&amp;emsp;动态规划（Dynamic Programming）和分治算法比较类似，但不同的是分治算法把原问题划归为几个相互独立的子问题，从而一一解决，而动态规划则是针对子问题有重叠的情况的一种解决方案。对于有重叠的情况，就是用一张表来保存子问题的中间结果，这样遇到重复的问题就不需要重新计算而">
-<meta property="og:updated_time" content="2017-07-25T08:49:12.321Z">
+<meta property="og:updated_time" content="2017-07-25T08:53:40.121Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="动态规划 -&gt; 贪心 -&gt; 递归的优化 -&gt; 尾递归 -&gt; 迭代">
 <meta name="twitter:description" content="动态规划 -&amp;gt; 贪心 -&amp;gt; 递归的优化 -&amp;gt; 尾递归 -&amp;gt; 迭代动态规划&amp;emsp;&amp;emsp;动态规划（Dynamic Programming）和分治算法比较类似，但不同的是分治算法把原问题划归为几个相互独立的子问题，从而一一解决，而动态规划则是针对子问题有重叠的情况的一种解决方案。对于有重叠的情况，就是用一张表来保存子问题的中间结果，这样遇到重复的问题就不需要重新计算而">
@@ -151,8 +151,7 @@
 <p>&emsp;&emsp;目前设计动态规划主要有两个思路：</p>
 <p>&emsp;&emsp;一个是利用递归方法，即首先把问题用递归的方法解决，然后用一张表保存递归中的中间结果。遇到需要计算以前计算过的东西，直接查表。</p>
 <p>&emsp;&emsp;另一个思路是exhaust search。    </p>
-<p>&emsp;&emsp;动态规划只能应用于最优子结构问题，最优子结构的意思是局部最优解能决定全局最优解（对有些问题这个要求并不能完全满足，故有时需要引入一定的近似）。简单地说，问题能够分解成子问题来解决。</p>
-<p>适用情况：  </p>
+<p>&emsp;&emsp;动态规划只能应用于最优子结构问题，最优子结构的意思是局部最优解能决定全局最优解（对有些问题这个要求并不能完全满足，故有时需要引入一定的近似）。简单地说，问题能够分解成子问题来解决。<br><a id="more"></a><br>适用情况：  </p>
 <ol>
 <li><p>最优子结构性质。如果问题的最优解所包含的子问题的解也是最优的，我们就称该问题具有最优子结构性质。最优子结构性质为动态规划算法解决问题提供了重要线索。</p>
 </li>
